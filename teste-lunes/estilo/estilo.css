@@ -1,0 +1,44 @@
+body{
+	background: #f0f0f0;
+	font-family: Arial, sains-serif;
+}
+a{
+	text-decoration: none;
+}
+div#ltc{
+	width: 50vw;
+	height: 630px;
+	float: left;
+	border-right: solid 1px #ccc;
+	text-align: center;
+}
+div#btc{
+	width: 50vw;
+	height: 630px;
+	float: right;
+	text-align: center;
+}
+div#container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+}
+div#container figcaption{
+	color: #a5a5a5;
+	text-transform: uppercase;
+}
+div#container span{
+	background-color: rgba(0, 180, 0, 1);
+	color:#fff;
+	padding: 3px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	display: none;
+}
+img.logo-inicial{
+	margin-top: 100px;
+}

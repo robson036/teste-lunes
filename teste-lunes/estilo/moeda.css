@@ -1,0 +1,73 @@
+body{
+	background: #f0f0f0;
+	font-family: Arial, sains-serif;
+	color: #aaa;
+}
+a{
+	text-decoration: none;
+}
+th{
+	padding-right:50px;
+	border-top: solid 1px #ccc;
+}
+span{
+	font-family: Arial, sains-serif;
+	font-size: 15pt;
+	color: #aaa;
+
+}
+/*div#container{
+	width: 100%;
+	display: flex;
+	justify-content: 
+}*/
+div#logo{
+	width: 49%;
+	float: left;
+	text-align: center;
+	height: 300px;
+	border-right: solid 1px #cecece;
+}
+div#cotacao{
+	width: 50%;
+	height: 300px;
+	float: right;
+	padding-bottom: 20px;
+
+}
+div#cotacao a{	
+	font-size: 20pt;
+	color: #aaaaaa;
+}
+div#cotacao a:hover{
+	text-decoration: underline;
+}
+div#infos{
+	width: 100%;
+	clear: both;
+	text-align: center;
+	align-items: center;
+}
+div#infos input#endereco{
+	width: 70%;
+	height: 30px;
+	border: solid 1px #cecece;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #ddd;
+}
+div#infos input#endereco:hover{
+	box-shadow: 2px 2px 2px #c2c1c2;
+	transition: 1s;
+}
+div#input input#botaoLupa{
+	background: url('../imagens/lupa.png');
+	width: 24px;
+	height: 24px;
+	border: none;
+	position: absolute;
+	margin-top: 6px;
+	cursor: pointer;
+}
+div#tabela{
+	margin-left: 35%; 
+}
